@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>367</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>xGateway    By: Hongxu Xu</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SimHei'; font-size:22pt; font-weight:600; color:#ff0000;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; font-family:'SimHei'; font-size:22pt; font-weight:600; color:#00007f;&quot;&gt;Gateway&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'SimHei'; font-size:18pt;&quot;&gt;北京师范大学网关&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="usernameLabel">
+          <property name="text">
+           <string>用户名</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="usernameEdit">
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="passwordLabel">
+          <property name="text">
+           <string>密　码</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="passwordEdit">
+          <property name="inputMask">
+           <string/>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="clearButtonEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" colspan="2">
+         <widget class="QCheckBox" name="rememberCheckBox">
+          <property name="text">
+           <string>记住我</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="infoLabel">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::Box</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Sunken</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="loginButton">
+        <property name="text">
+         <string>登录</string>
+        </property>
+        <property name="autoDefault">
+         <bool>true</bool>
+        </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="logoutButton">
+          <property name="text">
+           <string>注销</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="forceButton">
+          <property name="text">
+           <string>强制离线</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
